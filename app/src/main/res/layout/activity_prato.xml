@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PratoActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarBack2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlueToolbar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/ic_back"
+        app:titleTextColor="@color/colorWhite"
+
+        />
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAlignment="textEnd"
+        >
+
+        <LinearLayout
+            android:id="@+id/img_logoPrato"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:orientation="vertical"
+            android:gravity="bottom"
+            android:background="@drawable/image2"
+            android:scaleType="fitXY"
+            >
+
+
+            <TextView
+                android:id="@+id/tx_logoPrato"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:textColor="@color/colorWhite"
+                android:textAlignment="center"
+                android:textSize="24dp"
+                android:padding="4dp"
+                />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/descricao_prato"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="descrição"
+        android:padding="10dp"
+        />
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="40dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    >
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/input_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tx_name"
+            android:textColor="@color/colorBlueText"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/input_Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tx_Email"
+            android:textColor="@color/colorBlueText"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/input_Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tx_password"
+            android:inputType="textPassword"
+            android:textColor="@color/colorBlueText"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/input_RPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tx_rpassword"
+            android:inputType="textPassword"
+            android:textColor="@color/colorBlueText"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnConfRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorSalmao"
+        android:text="@string/tx_register"
+        android:textSize="15dp" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DH Foods</string>
+    <string name="tx_email">Email</string>
+    <string name="tx_password">Password</string>
+    <string name="tx_login">LOG IN</string>
+    <string name="tx_or">OR</string>
+    <string name="tx_register">Register</string>
+    <string name="tx_name">Name</string>
+    <string name="tx_Email">Email</string>
+    <string name="tx_rpassword">Repeat password</string>
+    <string name="nome_toolbar">Digital House Foods</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

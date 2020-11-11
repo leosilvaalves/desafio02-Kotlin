@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginActivity">
+
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="br.com.dhfoods.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" >
+        <action
+            android:id="@+id/action_loginActivity_to_feedActivity"
+            app:destination="@id/feedActivity" />
+    </activity>
+    <activity
+        android:id="@+id/feedActivity"
+        android:name="br.com.dhfoods.FeedActivity"
+        android:label="activity_feed"
+        tools:layout="@layout/activity_feed" />
+</navigation>
